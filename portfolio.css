@@ -1,0 +1,121 @@
+*{
+margin:0px;
+padding: 0px;
+
+}
+
+.navigation{
+          height:60px;
+          width: 100%;
+          background-color: rgb(80, 79, 79);
+          display: flex;
+          justify-content: center;
+
+}
+ 
+
+.container{
+       width: 80%;
+       height: 60px;
+       /* background-color: red; */
+       display: flex;
+       justify-content: space-between;
+      
+    
+}
+
+
+.logo{
+    width: 20%;
+    height: 60px;
+    /* background-color: yellow; */
+    font-size: 30px;
+    font-family:Verdana;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.nav{
+    width: 35%;
+    height: 80px;
+    /* background-color: yellow; */
+}
+
+.nav-link{
+    list-style-type: none;
+    height: 60px;
+    width: 25%;
+    /* background-color: red; */
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+
+
+
+
+}
+
+
+.nav-links{
+    display: flex;
+}
+
+.nav-link:hover{
+
+    background-color: white;
+}
+
+.banner{
+
+    height: 800px;
+    width: 100%;
+    background-color: blue;
+    background-image: url('./image/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: top;
+}
+
+ .banner_section{
+    height: 200px;
+    width: 40%;
+    /* background-color: white; */
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.btn{
+    background-color: white;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    fon
+
+}
+
+
+.btn:hover{
+
+    background-color: #bdbcbc;
+}
